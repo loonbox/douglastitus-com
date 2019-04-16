@@ -34,6 +34,17 @@ $('body').on('click','img',function(){
          });
 
 });
+
+// page loaded spinner
+
+window.addEventListener(“load”, () => {
+  document.getElementById(“loading”).style.display = “none”;
+});
+
+
+
+
+
 //for the login page
 // var email = $("#inputEmail").val()
 // var password = $("#inputPassword").val()
