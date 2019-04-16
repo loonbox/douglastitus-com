@@ -1,0 +1,78 @@
+
+
+* {
+  font-family: 'Markazi Text', serif;
+}
+
+body {
+
+  background-color: #f9f9f9;
+  padding-bottom: 40px;
+
+
+}
+
+.topDiv {
+  padding-top: 30px;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+
+.dynamicGallery {
+  padding-top: 90px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:5px;
+
+}
+
+
+
+.modalTitle {
+  text-align:center;
+}
+/*           form   */
+
+
+::-webkit-input-placeholder {
+  text-align:center;
+   color: grey;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align:center;
+   color: grey;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align:center;
+   color: grey;
+}
+
+:-ms-input-placeholder {
+  text-align:center;
+   color: grey;
+}
+
+
+
+.center_div{
+    margin: 0 auto;
+    width:99% /* value of your choice which suits your alignment */
+/* }
+
+#modal-footer button input {
+
+}
+
+#modal-footer {
+
+  background-color:white;
+} */
+
+.mainContainer { margin-top 65px;
+}
