@@ -1,12 +1,11 @@
 
 //fade in the under construction div calling the fadeconstruction after a bit to fade out
 $( document ).ready(function() {
-    $('.underConstruction').css("display","block");
-    window.setTimeout(fadeConstruction, 5000);
+  window.setTimeout(fadeConstruction, 5000);
 });
 
 function fadeConstruction(){
-  $('.underConstruction').fadeOut(3000);
+  $('.underConstruction').fadeOut(4000);
 }
 
 // modal get src of image so on click you can enlarge them
