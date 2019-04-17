@@ -58,7 +58,10 @@ html {
    color: grey;
 }
 
-
+.underConstruction {
+  display: none;
+  text-align: center;
+}
 
 .center_div{
     margin: 0 auto;

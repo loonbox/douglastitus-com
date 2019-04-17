@@ -30,6 +30,15 @@
   gtag('config', 'UA-138445781-1');
 </script>
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5SGNWGT');</script>
+<!-- End Google Tag Manager -->
+
+
 <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
@@ -66,6 +75,13 @@
 
   <body>
 
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SGNWGT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
     <div class="container mainContainer">
 
 
@@ -82,7 +98,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link " href="#">About</a>
             </li>
             <li class="nav-item" data-toggle="modal" data-target="#contactModal">
              <a class="nav-link" href="#">Contact</a>
@@ -98,6 +114,11 @@
 
       <div class="dynamicGallery">
       <div class = "myfade">
+        <!-- under construction alert -->
+              <div class="alert alert-secondary underConstruction" role="alert">
+                  We Currently Under Construction. Enjoy Some Images
+              </div>
+
       <div class="row">
 
       <div class = "col-md-4">
@@ -313,7 +334,8 @@
      </div>
      <div class="modal-footer">
        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-       <button type="button" id = "submit-form" class="btn btn-primary">Send message</button>
+       <!-- this should send an form fill event to GA -->
+       <button type="button"  id = "submit-form" class="btn btn-primary" onclick="ga('send', 'event', 'formFill', this.href); return true;">Send message</button>
      </div>
    </div>
  </div>

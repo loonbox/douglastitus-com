@@ -17,7 +17,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- <link href="animate_css/animate.css" rel="stylesheet"> -->
         <link href="css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
 
   </head>
 
@@ -28,7 +28,7 @@
 
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">D.Titus Photography</a>
+        <a class="navbar-brand" href="#">Hello There</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,13 +38,14 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link " href="#">About</a>
             </li>
+          </li>
+          <li class="nav-item" data-toggle="modal" data-target="#contactModal">
+           <a class="nav-link" href="#">Contact</a>
+         </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="client-login.html">Client Login</a>
+              <a class="nav-link" href="client-login.html">Client Login/a>
             </li>
           </ul>
         </div>
@@ -67,6 +68,43 @@ Sausage jerky venison, bacon cow buffalo tri-tip porchetta meatloaf kevin. Alcat
       </div>
     </div>
 <!-- end of modal -->
+
+<!--contact model -->
+
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="contactModalLabel">Let's Talk</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body">
+       <form id = "theForm">
+         <div class="form-group">
+           <label for="recipient-name" class="col-form-label">Name:</label>
+           <input type="text" name="form_field_1" class="form-control" id="form_field_1" required>
+         </div>
+
+         <div class="form-group">
+           <label for="recipient-name" class="col-form-label">Email:</label>
+           <input type="email" name="form_field_2" class="form-control" id="form_field_2" required>
+         </div>
+
+         <div class="form-group">
+           <label for="message-text" class="col-form-label">Message:</label>
+           <textarea class="form-control" name ="form_field_3" id="form_field_3"></textarea>
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       <button type="button" id = "submit-form" class="btn btn-primary">Send message</button>
+     </div>
+   </div>
+ </div>
+</div>
 
 
     </div><!-- /.container -->
