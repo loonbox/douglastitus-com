@@ -62,17 +62,12 @@ html {
 
 .center_div{
     margin: 0 auto;
-    width:99% /* value of your choice which suits your alignment */
-/* }
+    width:99% }
 
-#modal-footer button input {
-
+.mainHeader {
+  font-size: 45px;
+  padding-top:40px;
 }
-
-#modal-footer {
-
-  background-color:white;
-} */
-
-.mainContainer { margin-top 65px;
+.lead{
+  font-size: 25px;
 }
