@@ -1,19 +1,20 @@
 
 
 * {
-  font-family: 'Markazi Text', serif;
+  font-family: 'Abel', sans-serif;
 }
 
 body {
 
-  background-color: #f9f9f9;
-  padding-bottom: 40px;
+  /* background-color: #f9f9f9; */
+  background-color: white;
+  padding-bottom: 30px;
 
 
 }
 
 .topDiv {
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 html {
@@ -23,13 +24,13 @@ html {
 
 
 .dynamicGallery {
-  padding-top: 90px;
+  padding-top: 63px;
   padding-left:10px;
   padding-right:10px;
   padding-bottom:5px;
 
-}
 
+}
 
 
 .modalTitle {
@@ -58,10 +59,6 @@ html {
    color: grey;
 }
 
-.underConstruction {
-  
-  text-align: center;
-}
 
 .center_div{
     margin: 0 auto;
