@@ -18,16 +18,16 @@ body {
   padding-top: 25px;
 }
 
-/* html {
+html {
     min-height: 100%;
     position: relative;
-} */
+}
 
-
+/*
 html {
   position: relative;
   min-height: 100%;
-}
+} */
 
 .dynamicGallery {
   padding-top: 63px;
@@ -42,7 +42,6 @@ html {
 .modalTitle {
   text-align:center;
 }
-/*           form   */
 
 
 ::-webkit-input-placeholder {
@@ -65,15 +64,7 @@ html {
    color: grey;
 }
 
-
 .center_div{
     margin: 0 auto;
-    width:99% }
-
-.mainHeader {
-  font-size: 45px;
-  padding-top:40px;
-}
-.lead{
-  font-size: 28px;
-}
+    width:99%;
+   }
