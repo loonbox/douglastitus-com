@@ -1,70 +1,85 @@
-
-
 * {
-  font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
-
 body {
-
-  /* background-color: #f9f9f9; */
-  background-color: white;
-  padding-bottom: 30px;
-  margin-bottom: 60px; /* Margin bottom by footer height */
-
-
+   /* background-color: #f9f9f9;
+    */
+    background-color: white;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+   /* Margin bottom by footer height */
 }
-
 .topDiv {
-  padding-top: 25px;
+    padding-top: 25px;
 }
-
 html {
     min-height: 100%;
     position: relative;
 }
-
-/*
-html {
-  position: relative;
-  min-height: 100%;
-} */
-
+/* html {
+    position: relative;
+    min-height: 100%;
+}
+*/
 .dynamicGallery {
-  padding-top: 63px;
-  padding-left:10px;
-  padding-right:10px;
-  padding-bottom:5px;
-
-
+    padding-top: 63px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
 }
-
-
 .modalTitle {
-  text-align:center;
+    text-align:center;
 }
-
-
 ::-webkit-input-placeholder {
-  text-align:center;
-   color: grey;
+    text-align:center;
+    color: grey;
 }
-
-:-moz-placeholder { /* Firefox 18- */
-  text-align:center;
-   color: grey;
+:-moz-placeholder {
+   /* Firefox 18- */
+    text-align:center;
+    color: grey;
 }
-
-::-moz-placeholder {  /* Firefox 19+ */
-  text-align:center;
-   color: grey;
+::-moz-placeholder {
+   /* Firefox 19+ */
+    text-align:center;
+    color: grey;
 }
-
 :-ms-input-placeholder {
-  text-align:center;
-   color: grey;
+    text-align:center;
+    color: grey;
 }
-
 .center_div{
     margin: 0 auto;
     width:99%;
-   }
+}
+
+a img {
+  border: 0;
+}
+#goat {
+  margin-top: 100px;
+  text-align: center;
+}
+/* full screen modal */
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+/* end full screen modal */
+
+
+
+.aboutMainContainer {
+  padding-top: 20px;
+  padding-bottom: 25px;
+
+}
+.about-me{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

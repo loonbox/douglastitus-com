@@ -1,0 +1,14 @@
+
+.mobileImage{
+   display: none;
+}
+
+@media only screen and (max-width: 760px){
+   .desktopImage{
+     display: none;
+   }
+
+   .mobileImage{
+     display: block;
+   }
+}
