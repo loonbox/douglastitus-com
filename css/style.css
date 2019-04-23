@@ -72,7 +72,9 @@ a img {
 }
 /* end full screen modal */
 
-
+.modal-footer{
+  padding-bottom:70px;
+}
 
 .aboutMainContainer {
   padding-top: 20px;
