@@ -87,6 +87,33 @@ a img {
 }
 
 #weddingContactForm {
-  padding:50px;
-  background-color:#ecf0f1;
+  padding-left:7px;
+  padding-right:7px;
+  padding-top:20px;
+  padding-bottom: 80px;
+  background-color:#f2f4f7;
+  text-align: center;
   }
+
+.weddingPage {
+  background-color:#f2f4f7;
+  text-align: center;
+}
+.weddingHeader {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.weddingHeaderContact {
+  padding-bottom: 10px;
+}
+.spacer {
+  padding-bottom: 10px;
+  }
+
+.spacer2 {
+  padding-bottom: 25px;
+}
+
+.fa-home {        
+  color: black;
+}

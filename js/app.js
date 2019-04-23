@@ -14,7 +14,7 @@ $('body').on('click','img',function(){
       $('.navbar-collapse').collapse('hide');
   });
 
-
+//main contact form
   var url = 'https://script.google.com/macros/s/AKfycbyotNlVHxF02wgS2NNACqoq74BBcGvbfBEtFcCGIcKvXbZPPSrV/exec'
   $(document).on('click', '#submit-form', function (e) {
     e.preventDefault();
@@ -34,37 +34,22 @@ $('body').on('click','img',function(){
 
 });
 
+//wedding contact form
 
+var url = 'https://script.google.com/macros/s/AKfycbye-L5sYXvy83VWLW66aIue0BMttzQxoyCb-Ixy4Vdc036uTWYf/exec'
+$(document).on('click', '#wedding-submit-form', function (e) {
+  e.preventDefault();
+  var formData = $('#theForm').serializeArray();
+  $('#theForm').trigger("reset");
 
-//for the login page
-// var email = $("#inputEmail").val()
-// var password = $("#inputPassword").val()
-//
-//   $('.login-button').click(function() {
-//     firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
-//   // Handle Errors here.
-//       var errorCode = error.code;
-//       var errorMessage = error.message;
-//   // ...
-// });
-//
-// $('.logout').click(function() {
-//   firebase.auth().signOut().then(function() {
-//     // Sign-out successful.
-//   }).catch(function(error) {
-//     // An error happened.
-//   });
-// });
+  var jqxhr = $.ajax({
+    url: url,
+    method: "POST",
+    dataType: "json",
+    data: formData,
+    success: function () {
+            console.log("Hi how are you? ");
+            }
+       });
 
-// firebase.auth().onAuthStateChanged(function(user) {
-//   if (user) {
-//     alert('logged in');
-// } else {
-//     console.log('not logged in');
-// }
-// });
-
-  // });
-
-  //
-  // firebase.auth().signOut()
+});
