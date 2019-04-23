@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Douglas Titus">
-    <title>Douglas Titus Fine Art Photography | Portraits | Weddings | Wedding| Portrait Photography | Grand Rapids Michigan</title>
-    <meta name="Description" content="Commercial Event  Wedding Portrait Fine Art Photographer located in the Grand Rapids Michigan">
+    <title>Douglas Titus Weddings | Fine Art Photography | Portraits | Portrait Photography Grand Rapids Michigan</title>
+    <meta name="Description" content="Commercial Event Portrait Fine Art Photographer located in the Grand Rapids Michigan">
     <meta name="Keywords" content="Photographer, Grand Rapids, Portrait Photographer, Wedding Photographer, Wedding Photography, Portrait Photography, Kids Photography, Event Photography, Event Photographer">
     <meta name="geo.region" content="US-MI" />
     <meta name="geo.placename" content="Grand Rapids" />
@@ -23,7 +23,6 @@
     <link href="animate_css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/starter-template.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet"> <!-- use for media queries on index page -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -109,19 +108,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery-1.html">Gallery-1</a>
-                    </li>
-                    <li class="nav-item" data-toggle="modal" data-target="#contactModal">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Client Login</a>
-                    </li>
                 </ul>
             </div>
         </nav>
@@ -131,57 +117,55 @@
 
             <div class="starter-template">
 
-                  <!--these are the two images for the mobile and desktop version of the home page - media queries are found on index.css -->
-                <a href="gallery-1.html" target="_blank">
-                <img src="imgs/elias-full-screen-sm.jpg" class="img-fluid desktopImage" alt="Responsive image"> </a>
-                <a href="gallery-1.html" target="_blank">
-                <img src="imgs/titus_douglas_pdn1.jpg" class="img-fluid  mobileImage" alt="Responsive image"> </a>
-                <h1 class="mainHeader ">Look Mom No Hands</h1>
-                <p class="lead ">Photography
-                    <br> 2006 - 2019</p>
+              <h2 class="mainHeader ">Event Photography</h2>
+
+                <img src="imgs/malin-ryan2.jpg" class="img-fluid desktopImage" alt="Responsive image"> </a>
+
+
+
+
+  <div id="weddingContactForm">
+      <h3>Contact Me</h3>
+    <form action="/action_page.php">
+      <div class="form-group">
+
+        <input type="text" class="form-control" id="firstName" placeholder="First Name" name="firstName">
+      </div>
+      <div class="form-group">
+
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name" name="lastName">
+      </div>
+      <div class="form-group">
+
+        <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+      </div>
+      <div class="form-group">
+
+        <input type="tel" class="form-control" id="phone" placeholder="Phone Number" name="phone">
+      </div>
+      <div class="form-group">
+
+        <input type="text" class="form-control" id="eventDate" placeholder="Event Date" name="eventDate">
+      </div>
+      <div class="form-group">
+
+        <input type="text" class="form-control" id="eventLocation" placeholder="Event Location" name="eventLocation">
+      </div>
+      <div class="form-group">
+
+        <input type="number" class="form-control" id="numberOfGuests" placeholder="Number Of Guests" name="numberOfGuests">
+      </div>
+
+      <button type="button" id="submit-form" class="btn btn-secondary">Send message</button>
+    </form>
+  </div>
+</div>
+
             </div>
 
         </main>
         <!-- /.container -->
 
-        <!--contact model -->
-
-        <div class="modal animated zoomIn" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-full" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="contactModalLabel">Let's Talk</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="theForm">
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Name:</label>
-                                <input type="text" name="form_field_1" class="form-control" id="form_field_1" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Email:</label>
-                                <input type="email" name="form_field_2" class="form-control" id="form_field_2" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Message:</label>
-                                <textarea class="form-control" name="form_field_3" id="form_field_3"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <!-- this should send an form fill event to GA -->
-                        <button type="button" id="submit-form" class="btn btn-primary">Send message</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end modal-->
 
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
